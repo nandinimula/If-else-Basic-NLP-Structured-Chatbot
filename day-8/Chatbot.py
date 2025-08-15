@@ -44,7 +44,7 @@ while True:
         if location:
             print(f"ChatPy: I can’t check the weather in {location} yet, but I hope it’s nice there!")
         else:
-            print("ChatPy: You didn’t tell me the city name! 🌤")
+            print("ChatPy: You didn’t tell me the city name!")
     
     elif "help" in tokens:
         print("ChatPy: Yes, I can chat with you. Tell me how can I help you?")
